@@ -1,0 +1,5 @@
+pysshmenu (1.0~20120921-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Olivier Berger <obergix@debian.org>  Mon, 06 Jan 2014 15:46:38 +0100

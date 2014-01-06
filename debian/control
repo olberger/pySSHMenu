@@ -1,0 +1,23 @@
+Source: pysshmenu
+Section: x11
+Priority: optional
+Maintainer: Olivier Berger <obergix@debian.org>
+Build-Depends: debhelper (>= 9), dh-python
+Standards-Version: 3.9.5
+Homepage: https://github.com/MasslessParticle/pySSHMenu
+#Vcs-Git: git://git.debian.org/collab-maint/pysshmenu.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/pysshmenu.git;a=summary
+X-Python-Version: >= 2.7
+
+Package: pysshmenu
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, python-yaml
+Description: Menu for quick connections to your remote hosts
+ SSHMenu is a simple GUI app that provides a menu for initiating SSH
+ connections. Select a host from the menu and up pops a new terminal
+ window containing an SSH session to the selected host.
+ .
+ pySSHMenu is a port of SSHMenu to Python and Gtk 3 that runs as an
+ AppIndicator or StatusIcon rather than as an applet. pySSHMenu reads
+ and writes your old SSHMenu configuration files to make transitioning
+ easy.
