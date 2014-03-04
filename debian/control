@@ -1,6 +1,6 @@
 Source: pysshmenu
 Section: x11
-Priority: optional
+Priority: extra
 Maintainer: Olivier Berger <obergix@debian.org>
 Build-Depends: debhelper (>= 9), dh-python
 Standards-Version: 3.9.5
