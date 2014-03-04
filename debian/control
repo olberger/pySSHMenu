@@ -12,6 +12,7 @@ X-Python-Version: >= 2.7
 Package: pysshmenu
 Architecture: any
 Depends: ${misc:Depends}, ${python:Depends}, python-yaml
+Provides: sshmenu
 Description: Menu for quick connections to your remote hosts
  SSHMenu is a simple GUI app that provides a menu for initiating SSH
  connections. Select a host from the menu and up pops a new terminal
