@@ -3,7 +3,7 @@ Section: x11
 Priority: extra
 Maintainer: Olivier Berger <obergix@debian.org>
 Uploaders: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
-Build-Depends: debhelper (>= 9), dh-python
+Build-Depends: debhelper (>= 9), python | python-all | python-dev | python-all-dev, dh-python
 Standards-Version: 3.9.5
 Homepage: https://github.com/MasslessParticle/pySSHMenu
 Vcs-Browser: https://github.com/olberger/pySSHMenu
