@@ -6,8 +6,8 @@ Uploaders: Python Applications Packaging Team <python-apps-team@lists.alioth.deb
 Build-Depends: debhelper (>= 9), dh-python
 Standards-Version: 3.9.5
 Homepage: https://github.com/MasslessParticle/pySSHMenu
-#Vcs-Git: git://git.debian.org/collab-maint/pysshmenu.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/pysshmenu.git;a=summary
+Vcs-Browser: https://github.com/olberger/pySSHMenu
+Vcs-Git: https://github.com/olberger/pySSHMenu.git
 X-Python-Version: >= 2.7
 
 Package: pysshmenu
